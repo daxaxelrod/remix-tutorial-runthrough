@@ -1,3 +1,11 @@
+
+This is nothing special, just following the tutorial. I was originally a skeptic of the whole "react ssr" concept but I'm starting to rethink that. Heres a few things I find interesting:
+    The concept of a loader happening server side is great. Servers are better networked and dont drop connections nearly as often as clients. Instead of a client having to load all your js and THEN fetching data, you can fetch data and THEN load the js.
+
+    I hate how css works though, not a fan of managing all the css loaders but i guess its just one step removed from import "./blah.css" and you get some benifits like being able to overload classes without it messing with random parts of the app
+
+    Actions are interesting, still more to learn there. It seems like the concept is just send the raw html form to the backend and then deal with it like raw request.formData(). I think some of that validation happening client side is faster than shipping it to the server only to find out the email you submitted isnt valid.
+
 # Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
