@@ -11,6 +11,7 @@ export const loader = async () => {
     take: 1,
     skip: randomRowNumber,
   });
+
   return json({ randomJoke });
 };
 
@@ -24,4 +25,8 @@ export default function JokesIndexRoute() {
       <Link to={data.randomJoke.id}>"{data.randomJoke.name}" Permalink</Link>
     </div>
   );
+}
+
+export function ErrorBoundary() {
+  return <div className="error-container">I did a whoopsies.</div>;
 }

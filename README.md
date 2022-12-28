@@ -9,8 +9,6 @@ This is nothing special, just following the tutorial. I was originally a skeptic
 
     Also, are we just clumsily storing all server functions in a generic utils/ folder? Seems terribly unorganized. I guess its just a matter of time before we get a better way to organize server side code.
 
-    
-
 # Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
